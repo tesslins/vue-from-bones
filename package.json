@@ -1,0 +1,32 @@
+{
+  "name": "vue-from-bones",
+  "version": "1.0.0",
+  "description": "vue to the people",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "wp": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesslins/vue-from-bones.git"
+  },
+  "keywords": [
+    "view",
+    "vue"
+  ],
+  "author": "tess lins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesslins/vue-from-bones/issues"
+  },
+  "homepage": "https://github.com/tesslins/vue-from-bones#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
